@@ -1,11 +1,11 @@
 {
-    "email_user": "",
-    "email_pass": "",
+    "email_user": "your_email@gmail.com",
+    "email_pass": "your_email_app_password",
     "smtp_server": "smtp.gmail.com",
     "smtp_port": 587,
     "db_host": "localhost",
     "db_user": "root",
     "db_pass": "",
-    "db_name": "",
+    "db_name": "employee_db",
     "db_port": 3306
 }
