@@ -1,0 +1,18 @@
+{
+  "gui_isolation_blacklist": [
+    "1D50_6030",
+    "05AC_021E",
+    "16C0_0486",
+    "1B4F_9203",
+    "2341_0001",
+    "239A_80F4"
+  ],
+  "injection_blacklist": [
+    "USB\\VID_1D50&PID_6030",
+    "USB\\VID_05AC&PID_021E",
+    "USB\\VID_16C0&PID_0486",
+    "USB\\VID_1B4F&PID_9203",
+    "USB\\VID_2341&PID_0001",
+    "USB\\VID_239A&PID_80F4"
+  ]
+}

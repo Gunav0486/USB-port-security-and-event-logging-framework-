@@ -1,0 +1,11 @@
+{
+    "email_user": "",
+    "email_pass": "",
+    "smtp_server": "smtp.gmail.com",
+    "smtp_port": 587,
+    "db_host": "localhost",
+    "db_user": "root",
+    "db_pass": "",
+    "db_name": "",
+    "db_port": 3306
+}
