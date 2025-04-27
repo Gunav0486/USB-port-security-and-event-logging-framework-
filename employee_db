@@ -1,0 +1,22 @@
+CREATE DATABASE IF NOT EXISTS employee_db;
+
+USE employee_db;
+
+CREATE TABLE employees (
+    employee_id VARCHAR(255) PRIMARY KEY,
+    employee_name VARCHAR(255) NOT NULL,
+    employee_email VARCHAR(255) NOT NULL,
+    employee_phone VARCHAR(20),
+    employee_password VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE usb_logs (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    employee_id VARCHAR(255),
+    action VARCHAR(255),
+    timestamp DATETIME,
+    device_id VARCHAR(255),
+    system_info VARCHAR(255),
+    breach_details TEXT,
+    FOREIGN KEY (employee_id) REFERENCES employees(employee_id)
+);
