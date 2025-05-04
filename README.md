@@ -1,7 +1,4 @@
-Got it! Here's your updated professional README.md with the correct project name:
 
-
----
 
 USB Port Security and Event Logging Framework
 
@@ -93,12 +90,4 @@ All authentication attempts and device events are logged into the database.
 Blacklisted devices are permanently disabled and logged.
 
 
-License
-
-This project is open for educational and research purposes. For commercial or enterprise use, please contact the project maintainer.
-
-
----
-
-Would you like a badge-style header (e.g., for version, license, Python) or a sample usb_logs table schema as well?
 
